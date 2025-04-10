@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(138, 43, 226, 0.8);
+}
+
+.shadow-card {
+    background: rgba(20, 20, 30, 0.9);
+    border: 1px solid rgba(138, 43, 226, 0.5);
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.6);
+    border-radius: 10px;
+}
+
+.shadow-img {
+    filter: drop-shadow(0 0 10px rgba(138, 43, 226, 0.8));
+}
+
+.btn-dark-glow {
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(138, 43, 226, 0.5);
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.7);
+    transition: 0.3s;
+}
+
+.btn-dark-glow:hover {
+    background-color: rgba(138, 43, 226, 0.8);
+    color: white;
+    box-shadow: 0 0 20px rgba(138, 43, 226, 1);
+}
+
+.footer-style {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.8);
+}
