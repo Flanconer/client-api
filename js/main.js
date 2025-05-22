@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     async function enviarMensaje(inputMensaje) {
-        const url = "http://3.239.36.162/api-gpt-php/endpoints/chat.php";
+        const url = "http://3.91.25.87/api-gpt-php/endpoints/chat.php";
         const datos = { message: inputMensaje };
 
         console.log("Enviando datos a la API:", datos);
