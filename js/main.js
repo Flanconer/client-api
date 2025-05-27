@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let transcript = event.results[event.results.length - 1][0].transcript.trim().toUpperCase();
         console.log("Texto reconocido:", transcript);
 
-        if (transcript.includes(ordenPrefijo + " DETENTE")) {
+        if (transcript.includes(ordenPrefijo + " SALIR")) {
             stoppedManually = true;
             recognition.stop();
             startBtn.disabled = false;
